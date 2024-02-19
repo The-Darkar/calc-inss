@@ -18,11 +18,11 @@ try:
 
   elif nasc > 65:
     tempo = nasc - 65
-    print(f'\n \n INSS INFORMA: {nome}, você já está aposentado! \n \n seu benefício foi iniciado há {tempo} anos atrás.')
+    print(f'\n \n INSS INFORMA: {nome}, você já está aposentado! \n \n seu benefício foi iniciado há {tempo} ano(s) atrás.')
 
   else:
     tempo2 = 65 - nasc
-    print(f'\n \n INSS INFORMA: {nome} você ainda não está aposentado! \n \n Seu benefício estará disponível em {tempo2} anos.')
+    print(f'\n \n INSS INFORMA: {nome} você ainda não está aposentado! \n \n Seu benefício estará disponível em {tempo2} ano(s).')
 
 except ValueError:
   print('\n \n ATENÇÃO: Informação inválida! por favor, tente novamente')
