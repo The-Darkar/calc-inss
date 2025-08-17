@@ -16,5 +16,5 @@ Programa em Python que pergunta o nome e a idade do usuário e informa sua situa
 ## Como executar
 1. Clone este repositório
    ```bash
-   git clone https://github.com/<seu-usuario>/inss-retirement-calculator.git
+   git clone https://github.com/The-Darkar/inss-retirement-calculator.git
    cd inss-retirement-calculator
